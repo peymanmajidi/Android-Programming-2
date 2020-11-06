@@ -48,6 +48,8 @@ Initialize RecyclerView in Activity
 
 ![shot](shot.png)
 
+Refrence:   
+https://stackoverflow.com/questions/40584424/simple-android-recyclerview-example
 
 
 
