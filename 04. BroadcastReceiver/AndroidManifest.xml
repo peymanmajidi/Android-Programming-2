@@ -1,0 +1,9 @@
+<!-- 
+after </activity>
+before </application>
+-->
+ <receiver android:name=".MyBoadcastReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+            </intent-filter>
+</receiver>
