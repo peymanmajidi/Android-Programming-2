@@ -37,8 +37,8 @@ public class DBHelper extends SQLiteOpenHelper {
 ```
 
 ## Aparat Video
-Sqlite in Android: https://aparat.com/v/mWEOp   
-PlayList: https://www.aparat.com/playlist/605154   
+[Sqlite in Android](https://aparat.com/v/mWEOp)   
+[Full PlayList](https://www.aparat.com/playlist/605154)    
 
 ## Resource
 [SQLite Database - Tutorialspoint](https://www.tutorialspoint.com/android/android_sqlite_database.htm)
