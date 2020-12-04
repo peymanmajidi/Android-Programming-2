@@ -4,7 +4,7 @@ SQLite supports all the relational database features. In order to access this da
 
 Database - Package
 =============
-The main package is android.database.sqlite that contains the classes to manage your own databases
+The main package is `android.database.sqlite` that contains the classes to manage your own databases
 
 Database - Creation
 ===============
@@ -37,7 +37,8 @@ public class DBHelper extends SQLiteOpenHelper {
 ```
 
 ## Aparat Video
-[Sqlite in Android](https://aparat.com/v/mWEOp)   
+Part1: [Sqlite in Android](https://aparat.com/v/mWEOp)   
+Part2: [DB Helper](https://aparat.com/v/rXf1W)   
 [Full PlayList](https://www.aparat.com/playlist/605154)    
 
 ## Resource
