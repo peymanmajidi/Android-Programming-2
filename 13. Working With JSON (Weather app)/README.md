@@ -1,19 +1,16 @@
+# Follow these steps
 
-
-
-
-
-Add this line to `AndroidManifest.xml`
+1. Add this line to `AndroidManifest.xml`
 ```xml
    <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-Make a new class and extends from AsyncTask
+2. Make a new class and extends from AsyncTask
 ```java
 public class Weather extends AsyncTask<String, String, String> 
 ```
 
-Parse JSON Like this
+3. Parse JSON Like this
 ```java
           try {
               JSONObject root = new JSONObject(result);
@@ -27,11 +24,19 @@ Parse JSON Like this
           }
 ```
 
-Use the class
+4. Use the class
 ```java
         String city = txtCity.getText().toString();
         new Weather().execute("http://api.weatherstack.com/current?access_key="+ Setting.API_KEY_weatherstack+"&query=" + city);
 ```
 
 
+![shot](shot.png)
+
+Get the api key from here:   
 https://weatherstack.com/
+
+
+
+Link to aparat video:  
+https://aparat.com/v/Tf39Z
