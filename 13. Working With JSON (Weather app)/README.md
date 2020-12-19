@@ -9,6 +9,47 @@
 ```java
 public class Weather extends AsyncTask<String, String, String> 
 ```
+doInBackground method:
+```java
+@Override
+    protected String doInBackground(String... params) {
+
+        String address = params[0];
+
+        HttpURLConnection connection = null;
+        BufferedReader reader = null;
+
+
+        try {
+            URL url = new URL(address);
+            connection = (HttpURLConnection) url.openConnection();
+            connection.connect();
+
+
+            InputStream stream = connection.getInputStream();
+
+            reader = new BufferedReader(new InputStreamReader(stream));
+
+            StringBuffer buffer = new StringBuffer();
+            String line = "";
+
+            while ((line = reader.readLine()) != null) {
+                buffer.append(line + "\n");
+                Log.d(TAG, "> " + line);
+
+            }
+
+            return  buffer.toString();
+
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+    ```
 
 3. Parse JSON Like this
 ```java
