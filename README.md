@@ -1,11 +1,6 @@
-# Android Mobile Programming v2.0
-
-This is the Git repository has made for Jabarian University,I teach there as a lecturer and this all of the subject we speak.
-
-## Aparat PlayList Videos
-[Aparat Playlist](https://www.aparat.com/playlist/605154)   
-
-## Projects
+<h1 dir='rtl' align='right'>
+# برنامه‌نویسی موبایل 2 (مطابق سرفصلهای وزارت علوم)
+</h1>
 
 <p dir='rtl' align='right'>
 1. برای هر درس یک پلی لیست توی آپارات ایجاد شد<br/>
@@ -13,6 +8,9 @@ This is the Git repository has made for Jabarian University,I teach there as a l
 طول هر ویدیو ادیت شده بین 15 تا 30 دقیقه در نظر گرفته شد - تا برای دانشجو خسته کننده نباشه<br/>
 توی هر ویدیو ب ویدیو قبلی اشاره نمیشه. تا مستقلا کاربردی باشه<br/>
 </p>
+
+[تماشای ویدیوها در آپارات](https://www.aparat.com/playlist/605154)  
+
 <p dir='rtl' align='right'>
 2. هر موضوع با یک پروژه توضیح داده شد
 </p>
