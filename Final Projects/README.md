@@ -1,9 +1,9 @@
 ## Projects
 
 ### Guess Number Game
-![shot](GuessNumber.jpg)   
+![shot](screenshots/GuessNumber.jpg)   
 ### RockPaperScissor Game
-![shot](RockPaperScissor.jpg)   
+![shot](screenshots/RockPaperScissor.jpg)   
 ### WeatherApp Project
-![shot](WeatherApp.jpg)   
+![shot](screenshots/WeatherApp.jpg)   
  
